@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(193, 66, 243);
+    font-family: 'Laila', serif;
+}
+
+#container {
+    width: 90%; 
+    background-color: white;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bungee Inline', cursive;
+}
+
+h1 {
+    float: left;
+    padding-left: 1em;
+}
+
+#search{
+    float: left;
+    padding: 1.25em;
+}
+
+#search input {
+    padding: 0.5em;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#navigation {
+    background-color: rgb(193, 66, 243) 
+}
+#navigation ul {
+     list-style: none;
+     padding: 0;
+ }
+
+#navigation li {
+    float: left;
+    padding: 10px 20px;
+    border-right: 1px solid black;
+}
+
+#navigation li:hover {
+    background-color: white;
+   cursor: pointer;
+}
