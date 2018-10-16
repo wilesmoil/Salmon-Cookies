@@ -8,6 +8,19 @@
     <link href="normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Laila" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+
+    <script id="product-template" type="text/x-handlebars-templates">
+        <li class="product" data-foodtype="{{foodtype}}">
+        <img src="images/{{image}}" alt="{{title}}">
+        <h4>{{title}}</h4>
+        <p>{{price}}</p>
+        <a href= "a" class="button">Learn more</a>
+
+
+    </script>
+
+
+
 </head>
 <body>
    <div id="container">
@@ -25,17 +38,56 @@
              <li>Fish</li> 
              <li>Food</li>
              <li>Tanks</li>  
-             <li>Lights</li>  
-             <li>Brands</li>  
-             <li>Substrate</li>  
+             <li>Equipment</li>  
              <li>Decorations</li>
             </ul>
         </div>
-        <div id="promotions">
-            
+        <div id="promotions" class="clearfix">
+            <span class="arrow">&lt;</span>
+            <span class="promo">Free Shipping on orders $50 and above using promo code SHIP50</span>
+            <span class="arrow">&gt;</span>
 
         </div>
     </header>
+    <main>
+        <aside>
+            <h3>Categories</h3>
+            <select id="category-filter">
+                <option>--Filter by category</option>
+            </select>
+            <h3>Price</h3>
+            <select id="category-filter">
+                <option>--Filter by price</option>
+            </select>
+            <h3>Foodtype</h3>
+            <select id="category-filter">
+                <option>--Filter by foodtype</option>
+            </select>
+            <h3>Tanks</h3>
+            <select id="category-filter">
+                <option>--Filter by Tanks</option>
+            </select>
+            <h3>Decoration</h3>
+            <select id="category-filter">
+                <option>--Filter by decorations</option>
+            </select>
+        </aside>
+        <section>
+            <h3>Top Products</h3>
+            <ul id="product-listings">
+            </ul>
+        </section>
+    </main>
+         <footer>
+             <p>Copyright &copy; 2018 - Will's Fish Store</p>
+         </footer>
    </div> 
+   <script src="js/jquery-3.3.1.min.js"></script>
+   <script src="js/handlebars-v4.0.12.js"></script>
+   <script src="js/product.js"></script>
+   <script src="js/product-consturctor.js"></script>
+   <script src="js/foodtype-filters.js"></script>
 </body>
 </html>
+
+
