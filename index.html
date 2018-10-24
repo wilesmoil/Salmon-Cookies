@@ -10,7 +10,7 @@
     <link href="style.css" rel="stylesheet">
 
     <script id="product-template" type="text/x-handlebars-templates">
-        <li class="product" data-foodtype="{{foodtype}}">
+        <li class="product" data-foodtype="{{foodtype}}" data-categories="{{categories}}" data-id="{{product_id}}">
         <img src="images/{{image}}" alt="{{title}}">
         <h4>{{title}}</h4>
         <p>{{price}}</p>
@@ -29,8 +29,8 @@
             <h1>
                 Fish Store</h1>
             <form id="search">
-                <input type="text" placeholder="Search">
-                <input type="button" value="Go">
+                <input type="search" id="lookup" placeholder="Search">
+                <input type="submit" value="Go">
             </form>
         </div>
         <div id="navigation" class="clearfix">
@@ -53,23 +53,23 @@
         <aside>
             <h3>Categories</h3>
             <select id="category-filter">
-                <option>--Filter by category</option>
+                <option value="">--Filter by category</option>
             </select>
             <h3>Price</h3>
-            <select id="category-filter">
-                <option>--Filter by price</option>
+            <select id="price-filter">
+                <option value="">--Filter by price</option>
             </select>
             <h3>Foodtype</h3>
-            <select id="category-filter">
-                <option>--Filter by foodtype</option>
+            <select id="foodtype-filter">
+                <option value="">--Filter by foodtype</option>
             </select>
             <h3>Tanks</h3>
-            <select id="category-filter">
-                <option>--Filter by Tanks</option>
+            <select id="tanks-filter">
+                <option value="">--Filter by Tanks</option>
             </select>
             <h3>Decoration</h3>
-            <select id="category-filter">
-                <option>--Filter by decorations</option>
+            <select id="decorations-filter">
+                <option value="">--Filter by decorations</option>
             </select>
         </aside>
         <section>
@@ -87,6 +87,8 @@
    <script src="js/product.js"></script>
    <script src="js/product-consturctor.js"></script>
    <script src="js/foodtype-filters.js"></script>
+   <script src="js/category-filter.js"></script>
+   <script src="js/search.js"></script>
 </body>
 </html>
 

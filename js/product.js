@@ -5,7 +5,7 @@ var products = [
         title: "Tetra Fin Fish Food",
         price: "3.59",
         description: "This is a new and improved goldfish food made with the best ingredients to keep your fish healthy",
-        foodtype: "Crisps",
+        foodtype: "Flakes",
         Ingredients: ["Fish Meal, Ground Brown Rice, Dried Yeast, Shrimp Meal, Feeding Oat Meal, Wheat Gluten, Soybean Oil, Fish Oil, Corn Gluten, Algae Meal, Sorbitol, Lecithin, Potato Protein, Ascorbic Acid, Inositol, Niacin, L-Ascorbyl-2-Polyphosphate, A-Tocopherol-Acetate, D-Calcium Pantothenate, Riboflavin -5-Phosphate, Thiamine Mononitrate, Menadione Sodium Bisulfite Complex, Folic Acid, Pyridoxine Hydrochloride, Vitamin A Palmitate, Cyanocobalamin, Cholecalciferol, Manganese Sulfate, Ferrous Sulfate, Cobalt Sulfate, Artificial Colors, Blue 2 Lake, Red 3 Dye, Yellow 5 Lake, Yellow 6 Lake, Ethoxyquin and Citric Acid both as preservatives"],
         categories: ["Food"],
         product_id: "C1900"
@@ -23,7 +23,7 @@ var products = [
         title: "Tetra Pond Fish Food",
         price: "16.99" ,
         description: "This is a new and improved goldfish food made with the best ingredients to keep your fish healthy",
-        foodtype: "pellets",
+        foodtype: "Pellets",
         Ingredients: ["Fish Meal, Ground Brown Rice, Dried Yeast, Shrimp Meal, Feeding Oat Meal, Wheat Gluten, Soybean Oil, Fish Oil, Corn Gluten, Algae Meal, Sorbitol, Lecithin, Potato Protein, Ascorbic Acid, Inositol, Niacin, L-Ascorbyl-2-Polyphosphate, A-Tocopherol-Acetate, D-Calcium Pantothenate, Riboflavin -5-Phosphate, Thiamine Mononitrate, Menadione Sodium Bisulfite Complex, Folic Acid, Pyridoxine Hydrochloride, Vitamin A Palmitate, Cyanocobalamin, Cholecalciferol, Manganese Sulfate, Ferrous Sulfate, Cobalt Sulfate, Artificial Colors, Blue 2 Lake, Red 3 Dye, Yellow 5 Lake, Yellow 6 Lake, Ethoxyquin and Citric Acid both as preservatives"],
         categories: ["Food"],
         product_id: "C1902"
@@ -106,7 +106,7 @@ var products = [
         description: "Awesome decoration to show off your aquarium",
         foodtype: "",
         Ingredients: [],
-        categories: ["Decoration"],
+        categories: ["Decorations"],
         product_id: "C1911"
     },  {
         image:"CastleDecor.jpg",
@@ -115,7 +115,7 @@ var products = [
         description: "Big and cool looking castle to transform your aquarium into a new tank.",
         foodtype: "",
         Ingredients: [],
-        categories: ["Decoration"],
+        categories: ["Decorations"],
         product_id: "C1912"
     },  {
         image:"OriginalGreenPlant.jpg",
@@ -124,7 +124,7 @@ var products = [
         description: "Fake plant that totally looks real, doesn't fog tank",
         foodtype: "",
         Ingredients: [],
-        categories: ["Decoration"],
+        categories: ["Decorations"],
         product_id: "C1913"
     },  {
         image:"Discus.jpg",
@@ -149,7 +149,7 @@ var products = [
         title: "Gar Fish",
         price: 21.43,
         description: "Nasty fish that will tear up any meat you put in the tank",
-        foodtype: "Flakes",
+        foodtype: "",
         Ingredients: [],
         categories: ["Fish"],
         product_id: "C1916"
